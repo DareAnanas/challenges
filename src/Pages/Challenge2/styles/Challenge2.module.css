@@ -1,0 +1,15 @@
+.bgc-container {
+    background: #23424a;
+    color: white;
+    padding: 2em;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.intro-content {
+    width: 50%
+}

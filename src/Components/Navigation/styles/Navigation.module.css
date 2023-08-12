@@ -1,0 +1,33 @@
+.ul {
+    margin: 0;
+    padding: 1em;
+}
+
+.ul > li{
+    display: inline;
+}
+
+.ul > li > a {
+    padding: 1em;
+    text-decoration: none;
+    color: #050505;
+}
+
+.ul > li > a:hover {
+    background-color: orange;
+    transition: 300ms;
+}
+
+.hr {
+    margin: 0;
+    border: 1px solid #d3d3d3;
+}
+
+.burgerNav {
+    display: flex;
+    justify-content: end;
+}
+
+.rightMenu {
+    padding: 1em;
+}
