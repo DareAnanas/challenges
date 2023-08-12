@@ -4,10 +4,11 @@
 }
 
 .ul > li{
-    display: inline;
+    display: inline-block;
 }
 
 .ul > li > a {
+    display: inline-block;
     padding: 1em;
     text-decoration: none;
     color: #050505;

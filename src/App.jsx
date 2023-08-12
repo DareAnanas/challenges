@@ -1,5 +1,5 @@
 import { Routes, Route, Outlet, Link } from "react-router-dom";
-import Navigation from './components/Navigation/Navigation';
+import Navigation from './Components/Navigation/Navigation';
 import Challenge1 from './Pages/Challenge1/Challenge1';
 import Challenge2 from './Pages/Challenge2/Challenge2';
 import Challenge3 from './Pages/Challenge3/Challenge3';
