@@ -1,6 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import {ul, hr, burgerNav, rightMenu} from './styles/Navigation.module.css';
-import { useLayoutEffect, useState } from "react";
+import {ul, hr} from './styles/Navigation.module.css';
 
 function DesktopNav() {
     return (
@@ -17,6 +16,9 @@ function DesktopNav() {
                 </li>
                 <li>
                     <Link to="/challenge3">Challenge 3</Link>
+                </li>
+                <li>
+                    <Link to="/challenge4">Challenge 4</Link>
                 </li>
                 <li>
                     <Link to="/nothing-here">Nothing Here</Link>

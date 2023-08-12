@@ -23,12 +23,3 @@
     margin: 0;
     border: 1px solid #d3d3d3;
 }
-
-.burgerNav {
-    display: flex;
-    justify-content: end;
-}
-
-.rightMenu {
-    padding: 1em;
-}
