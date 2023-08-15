@@ -5,6 +5,7 @@ import Challenge2 from './Pages/Challenge2/Challenge2';
 import Challenge3 from './Pages/Challenge3/Challenge3';
 import Challenge4 from './Pages/Challenge4/Challenge4';
 import Challenge5 from './Pages/Challenge5/Challenge5';
+import Challenge6 from './Pages/Challenge6/Challenge6';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                 <Route path="challenge3" element={<Challenge3 />} />
                 <Route path="challenge4" element={<Challenge4 />} />
                 <Route path="challenge5" element={<Challenge5 />} />
+                <Route path="challenge6" element={<Challenge6 />} />
                 <Route path="*" element={<NoMatch />} />
             </Route>
         </Routes>
