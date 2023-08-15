@@ -123,4 +123,4 @@ function Challenge4() {
     );
 }
 
-export default Challenge4
+export default Challenge4;

@@ -21,6 +21,9 @@ function DesktopNav() {
                     <Link to="/challenge4">Challenge 4</Link>
                 </li>
                 <li>
+                    <Link to="/challenge5">Challenge 5</Link>
+                </li>
+                <li>
                     <Link to="/nothing-here">Nothing Here</Link>
                 </li>
             </ul>
