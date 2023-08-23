@@ -31,7 +31,7 @@ const IntroImg = styled.img.attrs({
 })`
     max-width: 100%;
     @media (max-width: 1000px) {
-        display: none;
+        margin-top: 2em;
     }
 `;
 
@@ -77,6 +77,9 @@ const StyledLink = styled(Link)`
 const Row = styled.div`
     display: flex;
     gap: ${props => props.$gap || '20px'};
+    @media (max-width: 1000px) {
+        display: block;
+    }
 `;
 
 const Col = styled.div``;

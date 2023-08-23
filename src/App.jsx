@@ -1,5 +1,6 @@
 import { Routes, Route, Outlet, Link } from "react-router-dom";
 import Navigation from './Components/Navigation/Navigation';
+import Home from './Pages/Home/Home';
 import Challenge1 from './Pages/Challenge1/Challenge1';
 import Challenge2 from './Pages/Challenge2/Challenge2';
 import Challenge3 from './Pages/Challenge3/Challenge3';
@@ -25,12 +26,6 @@ function App() {
             </Route>
         </Routes>
     </>
-    );
-}
-
-function Home() {
-    return (
-        <h1>This is main page</h1>
     );
 }
 

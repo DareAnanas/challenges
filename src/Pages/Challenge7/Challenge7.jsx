@@ -100,6 +100,7 @@ const P = styled.p`
     font-family: Roboto;
     font-weight: 400;
     font-size: 1.3125rem;
+    line-height: 1.5;
     color: ${colors.dark};
     margin: 0;
     ${props => colorProvider(props, 'color')};
