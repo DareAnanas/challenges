@@ -8,6 +8,7 @@ import Challenge4 from './Pages/Challenge4/Challenge4';
 import Challenge5 from './Pages/Challenge5/Challenge5';
 import Challenge6 from './Pages/Challenge6/Challenge6';
 import Challenge7 from './Pages/Challenge7/Challenge7';
+import Challenge8 from './Pages/Challenge8/Challenge8';
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                 <Route path="challenge5" element={<Challenge5 />} />
                 <Route path="challenge6" element={<Challenge6 />} />
                 <Route path="challenge7" element={<Challenge7 />} />
+                <Route path="challenge8" element={<Challenge8 />} />
                 <Route path="*" element={<NoMatch />} />
             </Route>
         </Routes>
